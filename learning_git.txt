@@ -76,4 +76,26 @@ This command is useful for inspecting the contents of a directory, especially wh
 
 // // Use git diff --staged to see the changes staged for commit.
 
-// // rfrefewr
+// // git commit -m "Commit Message" Here we are committing the changes to the repository. We can see that the changes are now committed to the repository. The -m flag is used to add a message to the commit. This message is a short description of the changes that were made. You can use this message to remember what the changes were. Missing the -m flag will result in an action that opens your default settings editor, which is usually VIM. But we've changed it to vscode.
+
+// // git log This command will show you the history of your repository. It will show you all the commits that were made to the repository. 
+// // git log --one line  We can use the --oneline flag to show only the commit message. This will make the output more compact and easier to read.
+
+// Atomic commits are a way to make sure that each commit is a self-contained unit of work. This means that if one commit fails, you can always go back to a previous commit and fix the issue.
+This is important for maintaining a clean and organized history in your repository.
+When you're working in the working diresctory then it is a good practice to commit the task atomically means when 1 feature or task is competed commit it, it helps us to make clean commit history so we can easily track back our work.
+
+
+// // git config --global core.editor "code --wait" we already have changed our default code editor.
+
+// //.gitignore - it is a file in which when we write a file name then git will ignore that file and will not ask to commit or add it.
+It is used when we don't want to commit or add sensitive files to staging area or repository, e.g. .env file .
+
+
+// A .env file is commonly used in software development to store environment variables.
+These variables are key-value pairs that configure application settings without hardcoding them into the source code.
+The .env file is a simple and effective way to manage application configurations and sensitive data securely.
+By using it appropriately, developers can ensure better scalability, maintainability, and security for their applications. // 
+
+// .gitkeep is used when you want to add empty folder in the staging area or repository, by default git don't ask empty folder to add into repositories or staging area and if we want to store it then we have to use .git keep like we did here with image folder.
+we can see git is asking image folder to add and commit but not to log. //
