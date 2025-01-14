@@ -1,0 +1,285 @@
+(base)  shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   learning_git.txt
+
+(base)  shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   learning_git.txt
+
+(base)  shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git rm .
+fatal: not removing '.' recursively without -r
+(base)  ✘ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git rm learning_git.txt
+error: the following file has changes staged in the index:
+    learning_git.txt
+(use --cached to keep the file, or -f to force removal)
+(base)  ✘ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git status             
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   learning_git.txt
+
+(base)  shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   learning_git.txt
+
+(base)  shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git rm --cached .      
+fatal: not removing '.' recursively without -r
+(base)  ✘ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git rm --cached learning_git.txt 
+rm 'learning_git.txt'
+(base)  shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git status                      
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        learning_git.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base)  shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git add learning_git.txt
+(base)  shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git status              
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   learning_git.txt
+
+(base)  shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git diff --staged
+
+[1]  + 61361 suspended  git diff --staged
+(base)  ✘ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git diff --staged
+
+[2]  + 63865 suspended  git diff --staged
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±✚  git add learning_git.txt
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git diff --staged       
+
+[3]  + 64255 suspended  git diff --staged
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git reset learning_git.txt      
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git status                
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        learning_git.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git add learning_git.txt
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git status              
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   learning_git.txt
+
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git commit -m "First Commit"
+[master (root-commit) 80ccbff] First Commit
+ 1 file changed, 77 insertions(+)
+ create mode 100644 learning_git.txt
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git status                          
+On branch master
+nothing to commit, working tree clean
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git status 
+On branch master
+nothing to commit, working tree clean
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   learning_git.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git logs  
+git: 'logs' is not a git command. See 'git --help'.
+
+The most similar command is
+        log
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git log 
+
+[4]  + 71337 suspended  git log
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git log --one line
+fatal: ambiguous argument 'line': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git log --oneline 
+
+[5]  + 72651 suspended  git log --oneline
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git config --global core.editor "code --wait"
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git commit                  
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   learning_git.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git s     
+git: 's' is not a git command. See 'git --help'.
+
+The most similar commands are
+        show
+        status
+        switch
+        svn
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   learning_git.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git commit
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   learning_git.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git config --global core.editor "code --wait"
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git commit
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   learning_git.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git config --global core.editor "code --wait"
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git config --global core.editor "code --wait" 
+git add learning_git.txt                                                                                                                                        
+git commit
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git add learning_git.txt
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git commit
+hint: Waiting for your editor to close the file... 
+^Z
+[6]  + 81336 suspended  git commit
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git log          
+
+[7]  + 83180 suspended  git log
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git log --oneline
+
+[8]  + 83936 suspended  git log --oneline
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git status       
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   learning_git.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .env
+
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git status
+\On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   learning_git.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .env
+        .gitignore
+
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   learning_git.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .env
+        .gitignore
+
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚   git s
+git: 's' is not a git command. See 'git --help'.
+
+The most similar commands are
+        show
+        status
+        switch
+        svn
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   learning_git.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git add .gitignore      
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git commit -m "Add .gitignoreFile"
+[master a1b06e6] Add .gitignoreFile
+ 2 files changed, 3 insertions(+)
+ create mode 100644 .gitignore
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git status                        
+On branch master
+nothing to commit, working tree clean
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git show  
+
+[9]  + 90439 suspended  git show
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git log --oneline
+
+[10]  + 90934 suspended  git log --oneline
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git show         
+
+[11]  + 92769 suspended  git show
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        images/
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   learning_git.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        images/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git add learning_git.txt          
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git commit -m "Second Commit"     
+[master c68cf54] Second Commit
+ 1 file changed, 23 insertions(+), 1 deletion(-)
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git status                   
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        images/
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  
