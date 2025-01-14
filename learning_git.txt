@@ -1,6 +1,6 @@
 You can read the notes at https://docs.chaicode.com/git-and-github/
 
-// TERMINOLOGY:
+********************************************************** TERMINOLOGY*********************************************************************
 
 `git --version` is used to check the current version of Git installed on your PC.
 
@@ -99,3 +99,9 @@ By using it appropriately, developers can ensure better scalability, maintainabi
 
 // .gitkeep is used when you want to add empty folder in the staging area or repository, by default git don't ask empty folder to add into repositories or staging area and if we want to store it then we have to use .git keep like we did here with image folder.
 we can see git is asking image folder to add and commit but not to log. //
+
+
+// * git commit -a -m "Message"    # Automatically stages modified and deleted files before committing but we should try to avoid this as we should use git add and git commit to take granular control over the files.
+
+
+********************************************************** Git Behind The Scenes*********************************************************************
