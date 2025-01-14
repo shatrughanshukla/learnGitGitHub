@@ -1,0 +1,77 @@
+You can read the notes at https://docs.chaicode.com/git-and-github/
+
+// TERMINOLOGY:
+
+`git --version` is used to check the current version of Git installed on your PC.
+
+// REPOSITORY:
+
+A repository is a collection of files and directories that are stored together. It is a way to store and manage your code. A repository is like a folder on your computer, but it is more than just a folder. It can contain other files, folders, and even other repositories. You can think of a repository as a container that holds all your code.
+
+`git status` -> to track the repository status
+
+// `pwd` -> to check the current location
+// `git config --global user.email "shatrughanshukla00@gmail.com"`
+// `git config --global user.name "shatrughanshukla"`
+
+The `git status` command is used to display the state of the working directory and the staging area. It shows which changes have been staged, which haven't, and which files aren't being tracked by Git. This command is very useful for understanding what is going on in your repository at any given time.
+
+Here is a breakdown of what `git status` provides:
+
+- Untracked files: Files in your working directory that are not being tracked by Git.
+- Changes not staged for commit: Files that have been modified but not yet added to the staging area.
+- Changes to be committed: Files that have been added to the staging area and will be included in the next commit.
+
+It is recommended to run `git status` before creating a commit to ensure that you understand the current state of your working directory. This helps you to:
+
+- Verify that there are no uncommitted changes that you might want to include in the commit.
+- Ensure that you are in the correct directory and not accidentally creating a repository in the wrong location.
+- Identify any untracked files that you might want to add to the repository.
+
+// `git init`
+
+The `git init` command is used to create a new Git repository. It can be used to convert an existing project into a Git repository or initialize a new, empty repository. When you run `git init`, it creates a new `.git` subdirectory in your project directory, which contains all the necessary metadata for the repository.
+
+Here is how you can use `git init`:
+
+1. Navigate to your project directory:
+    ```
+    cd /path/to/your/project
+    ```
+
+2. Initialize a new Git repository:
+    ```
+    git init
+    ```
+
+After running `git init`, your project directory will be set up as a Git repository, and you can start tracking changes, creating commits, and using other Git commands.
+
+There are hidden files under the repository, and to access them, we run `ls -la`, which shows all the files under the repository, hidden and unhidden. Then simply write `cd filename` to enter into it, like we did here with `.git`, and then we can see all the directories and files under this by running `ls -la`.
+
+// `ls -la`
+
+The `ls -la` command is used to list all files and directories in the current directory, including hidden files. The `-l` option provides a detailed list with file permissions, number of links, owner, group, size, and timestamp. The `-a` option includes hidden files (those starting with a dot).
+
+Here is how you can use `ls -la`:
+
+1. Navigate to your desired directory:
+    ```
+    cd /path/to/your/directory
+    ```
+
+2. List all files and directories, including hidden ones:
+    ```
+    ls -la
+    ```
+
+This command is useful for inspecting the contents of a directory, especially when you need to see hidden files like `.git` in a Git repository.
+
+
+// // git add <file> <file2> to add files to staging area.
+// // git add . it will stage all files present in the repository.
+
+// // git rm --cached <filename> this will unstage the file.
+
+// // git reset <file> Removes changes from the staging area without deleting them from the working directory.
+
+// // Use git diff --staged to see the changes staged for commit.
