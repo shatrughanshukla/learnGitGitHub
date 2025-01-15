@@ -123,3 +123,5 @@ Git will prevent deletion if the branch has unmerged changes to avoid losing wor
 
 // // git branch -D branch_name
 Force Delete
+
+// // git merge --abort easiest way is to abort the merging when you're not able to merge.
