@@ -118,3 +118,4 @@ prefer notes from chai and code.
 
 ********************************************************** Git Branches and conflicts ***************************************************************
 woww!!
+add footer notes
