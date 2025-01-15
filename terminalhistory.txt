@@ -283,3 +283,359 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 (base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  
+
+/// /// 2nd day commands /// /// 
+
+(base)  shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/JAVA  git status                      
+fatal: not a git repository (or any of the parent directories): .git
+(base)  ✘ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/JAVA  git init                                    
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+Initialized empty Git repository in /home/shatrughan-shukla/Desktop/CODEEE/JAVA/.git/
+(base)  shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/JAVA   master  git add                                     
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config advice.addEmptyPathspec false"
+(base)  shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/JAVA   master  git add .                                   
+(base)  shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/JAVA   master ✚  git status                          
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Firstjavacode.class
+        new file:   Firstjavacode.java
+        new file:   firstjavacode.java
+
+(base)  shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/JAVA   master ✚  git rm --cached JAVA            
+fatal: pathspec 'JAVA' did not match any files
+(base)  ✘ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/JAVA   master ✚  git rm --cached Firstjavacode.java
+rm 'Firstjavacode.java'
+(base)  shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/JAVA   master ✚  git rm --cached Firstjavacode.java 
+fatal: pathspec 'Firstjavacode.java' did not match any files
+(base)  ✘ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/JAVA   master ✚  git rm --cached Firstjavacode.java
+fatal: pathspec 'Firstjavacode.java' did not match any files
+(base)  ✘ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/JAVA   master ✚  rm -rf JAVA    
+(base)  shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/JAVA   master ✚  git status                        
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Firstjavacode.class
+        new file:   firstjavacode.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Firstjavacode.java
+
+(base)  shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/JAVA   master ✚  rm -rf .git
+(base)  shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/JAVA  
+ *  History restored 
+
+(base)  shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/JAVA  ../../GitandGitHub\
+> 
+(base)  ✘ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/JAVA  ../../ GitandGitHUb
+zsh: permission denied: ../../
+(base)  ✘ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/JAVA  ../../ CODEEE      
+zsh: permission denied: ../../
+(base)  ✘ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/JAVA  ../../CODEEE/GitandGitHub
+(base)  shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git branch
+
+[1]  + 215099 suspended  git branch
+(base)  ✘ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git branch
+
+[2]  + 215740 suspended  git branch
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git branch bugfix      
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±   git branch bug-fix
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git branch       
+
+[3]  + 216604 suspended  git branch
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git switch bug-fix
+M       learning_git.txt
+Switched to branch 'bug-fix'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix ±  git branch        
+
+[4]  + 217281 suspended  git branch
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix ±  git add fixes.txt
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix ±✚  git commit -m "Addfixfile"        
+[bug-fix 5b05331] Addfixfile
+ 1 file changed, 1 insertion(+)
+ create mode 100644 fixes.txt
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix ±  git status                
+On branch bug-fix
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   learning_git.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        images/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix ±  git status
+On branch bug-fix
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   learning_git.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        images/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix ±  git log --oneline
+
+[5]  + 219833 suspended  git log --oneline
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix ±  git log          
+
+[6]  + 220256 suspended  git log
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix ±  git switch master    
+M       learning_git.txt
+Switched to branch 'master'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git branch       
+
+[7]  + 221684 suspended  git branch
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git switch -c 'Dark Mode'
+fatal: 'Dark Mode' is not a valid branch name
+hint: See `man git check-ref-format`
+hint: Disable this message with "git config advice.refSyntax false"
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git switch -c 'Dark-Mode'
+Switched to a new branch 'Dark-Mode'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   Dark-Mode ±  git checkout shatruBranch 
+error: pathspec 'shatruBranch' did not match any file(s) known to git
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   Dark-Mode ±  git checkout master      
+M       learning_git.txt
+Switched to branch 'master'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±  git checkout bug-fix
+M       learning_git.txt
+Switched to branch 'bug-fix'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix ±  git add .           
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix ✚  git commit -m "another fix"
+[bug-fix 62670f9] another fix
+ 3 files changed, 16 insertions(+), 2 deletions(-)
+ create mode 100644 images/.gitkeep
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix   git checkout master
+Switched to branch 'master'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git checkout bug-fix       
+Switched to branch 'bug-fix'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix  git checkout master 
+Switched to branch 'master'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git checkout master 
+Already on 'master'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git merge bug-fix    
+Updating 753e67e..62670f9
+Fast-forward
+ fixes.txt        |  2 ++
+ images/.gitkeep  |  0
+ learning_git.txt | 15 ++++++++++++++-
+ 3 files changed, 16 insertions(+), 1 deletion(-)
+ create mode 100644 fixes.txt
+ create mode 100644 images/.gitkeep
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git status               
+On branch master
+nothing to commit, working tree clean
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git branch
+
+[8]  + 241353 suspended  git branch
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git checkout bug-fix
+Switched to branch 'bug-fix'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix  git add .           
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix ✚  git commit -m "Third Commit"
+[bug-fix 34f2c56] Third Commit
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix  git add .                   
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix ✚  git commit -m "Fourth Commit"
+[bug-fix 49f9e41] Fourth Commit
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix  git checkout master          
+Switched to branch 'master'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git add .          
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git commit -m "add woww"     
+[master aaa9365] add woww
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git checkout bug-fix    
+Switched to branch 'bug-fix'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix  git add .           
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix ✚  git commit -m "Fifth bug"
+[bug-fix c71894f] Fifth bug
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix  git checkout master      
+Switched to branch 'master'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git add .          
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git commit -m "Footer note"
+[master 5ae488f] Footer note
+ 1 file changed, 1 insertion(+)
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git checkout master        
+Already on 'master'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git checkout bug-fix
+Switched to branch 'bug-fix'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix  git checkout master 
+Switched to branch 'master'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git checkout bug-fix
+Switched to branch 'bug-fix'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix  git checkout master 
+Switched to branch 'master'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git checkout bug-fix
+Switched to branch 'bug-fix'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix  git checkout master\
+> 
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix  git checkout master 
+Switched to branch 'master'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git branch         
+
+[9]  + 253120 suspended  git branch
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git branch                        
+
+[10]  + 253591 suspended  git branch
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git rm --cached bugfix            
+fatal: pathspec 'bugfix' did not match any files
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git reset --bugfix        
+error: unknown option `bugfix'
+usage: git reset [--mixed | --soft | --hard | --merge | --keep] [-q] [<commit>]
+   or: git reset [-q] [<tree-ish>] [--] <pathspec>...
+   or: git reset [-q] [--pathspec-from-file [--pathspec-file-nul]] [<tree-ish>]
+   or: git reset --patch [<tree-ish>] [--] [<pathspec>...]
+
+    -q, --[no-]quiet      be quiet, only report errors
+    --no-refresh          skip refreshing the index after reset
+    --refresh             opposite of --no-refresh
+    --mixed               reset HEAD and index
+    --soft                reset only HEAD
+    --hard                reset HEAD, index and working tree
+    --merge               reset HEAD, index and working tree
+    --keep                reset HEAD but keep local changes
+    --[no-]recurse-submodules[=<reset>]
+                          control recursive updating of submodules
+    -p, --[no-]patch      select hunks interactively
+    -N, --[no-]intent-to-add
+                          record only the fact that removed paths will be added later
+    --[no-]pathspec-from-file <file>
+                          read pathspec from file
+    --[no-]pathspec-file-nul
+                          with --pathspec-from-file, pathspec elements are separated with NUL character
+
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git branch        
+
+[11]  + 254891 suspended  git branch
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git branch -d bugfix
+Deleted branch bugfix (was 753e67e).
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git branch          
+
+[12]  + 255966 suspended  git branch
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git add . 
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git commit -m "deleting a branch"
+[master 9d57d44] deleting a branch
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git checkout bug-fix             
+Switched to branch 'bug-fix'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix  git checkout master              
+Switched to branch 'master'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git merge bug-fix  
+Merge made by the 'ort' strategy.
+ fixes.txt | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git merge bug-fix
+Already up to date.
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git checkout bug-fix
+Switched to branch 'bug-fix'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix  git checkout master 
+Switched to branch 'master'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git checkout bug-fix
+Switched to branch 'bug-fix'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix  git checkout master 
+Switched to branch 'master'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git checkout bug-fix
+Switched to branch 'bug-fix'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix  git add .           
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix ✚  git commit -m "learningconflict1"
+[bug-fix 9e3515c] learningconflict1
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix  git checkout master              
+Switched to branch 'master'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git branch         
+
+[13]  + 269020 suspended  git branch
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git merge bug-fix 
+Auto-merging learning_git.txt
+CONFLICT (content): Merge conflict in learning_git.txt
+Automatic merge failed; fix conflicts and then commit the result.
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±✚ >M<  git merge bug-fix
+error: Merging is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±✚ >M<  git status       
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   learning_git.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±✚ >M<  git merge --abort
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git add .        
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚  git commit -m "abort"            
+[master 0fb4489] abort
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git checkout bug-fix  
+Switched to branch 'bug-fix'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix  git checkout master 
+Switched to branch 'master'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git merge bug-fix  
+Auto-merging learning_git.txt
+CONFLICT (content): Merge conflict in learning_git.txt
+Automatic merge failed; fix conflicts and then commit the result.
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±✚ >M<  git merge --abort
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git add .        
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git merge bug-fix
+Auto-merging learning_git.txt
+CONFLICT (content): Merge conflict in learning_git.txt
+Automatic merge failed; fix conflicts and then commit the result.
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±✚ >M<  git status       
+On branch master
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   learning_git.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±✚ >M<  git commit           
+U       learning_git.txt
+error: Committing is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ±✚ >M<  git add .            
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master ✚ >M<  git commit -m "conflict resolved with manualmerge" 
+[master 7a7a357] conflict resolved with manualmerge
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git status
+On branch master
+nothing to commit, working tree clean
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git checkout bug-fix
+Switched to branch 'bug-fix'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix  git checkout master 
+Switched to branch 'master'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git checkout bug-fix\
+> 
+(base)  ✘ ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   master  git checkout bug-fix 
+Switched to branch 'bug-fix'
+(base)  ⚙ shatrughan-shukla@shatrughan-shukla-IdeaPad-Slim-5-14IRL8  ~/Desktop/CODEEE/GitandGitHub   bug-fix ± 
