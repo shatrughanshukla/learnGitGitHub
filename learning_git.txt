@@ -24,7 +24,7 @@ Here is a breakdown of what `git status` provides:
 
 It is recommended to run `git status` before creating a commit to ensure that you understand the current state of your working directory. This helps you to:
 
-- Verify that there are no uncommitted changes that you might want to include in the commit.
+- Verify that there are no uncommitted changes that you might want to include in the commit.99995
 - Ensure that you are in the correct directory and not accidentally creating a repository in the wrong location.
 - Identify any untracked files that you might want to add to the repository.
 
@@ -105,3 +105,16 @@ we can see git is asking image folder to add and commit but not to log. //
 
 
 ********************************************************** Git Behind The Scenes*********************************************************************
+
+// // cd ../../CODEEE use this code for going to desired file.
+
+// // TO remove a repository from git the steps are 
+1.) cd path/to/parent/directory  navigate to the repository's parent directory.
+2.) rm -rf .git This removes the .git directory, which contains all the metadata for the Git repository.
+3.) git status
+
+
+prefer notes from chai and code.
+
+********************************************************** Git Branches and conflicts ***************************************************************
+
