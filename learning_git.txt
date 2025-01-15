@@ -178,3 +178,64 @@ VSCode has a built-in merge tool that can help you resolve the conflicts.
 
 ******************************************************** Git diff, stash and tag ******************************************************************************************
 
+
+// // // git diff
+
+
+// // git diff This command shows the unstaged changes in your working directory compared to the staging area. This command alone will not show you the changes made in the file A and file B, you need to provide options to show the changes.
+// // git diff --staged This command shows the changes between your last commit and the staging area (i.e., changes that are staged and ready to be committed).
+// // git diff <branch-name-one> <branch-name-two> This command compares the difference between two branches.
+another way to compare 
+// // git diff <branch-name-one>..<branch-name-two>
+
+git diff <commit-hash-one> <commit-hash-two> This command compares the difference between two commits.
+
+
+// // // git stash 
+
+
+Stash is a way to save your changes in a temporary location. It is useful when you want to make changes to a file but don’t want to commit them yet. You can then come back to the file later and apply the changes.
+
+// // git stash This command saves your changes in a temporary location. It is like a stack of changes that you can access later.
+
+// // git stash save "work in progresson x feature" Naming the stash
+
+// // git stash list the list of stashes
+
+// // git stash apply apply the stash
+
+// // git stash apply stash@{0} apply the specific stash
+
+// // git stash pop You can apply and drop the stash by using the following command
+
+// // git stash drop you can drop the stash by using thsi command
+
+// // git stash clear You can clear the stash by using the following command
+
+// // git stash apply@{0} <branch name>
+
+git tag -a	Creates an annotated tag.
+git commit -a	Stages and commits all modified and deleted files (except untracked ones).
+
+
+// // // tag 
+
+// // git tag -a <tag-name> -m "Message to be passed"
+This command creates an annotated tag with the specified name and message. The tag will be attached to the current commit.
+
+Annotated tags are a type of tag in Git that are stored as full Git objects in the repository.
+They include additional metadata such as:
+- Tagger Information
+- Message
+- optional cpg signature
+
+// // git tag List all tags
+
+// // git tag <tag-name> <commit-hash> , Tagging a specific commit
+
+// // git push origin <tag-name> , push tag to remote repository
+
+// // git tag -d <tag-name> delete a tag
+
+// // git push origin :<tag-name>
+
