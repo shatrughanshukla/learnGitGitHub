@@ -116,5 +116,6 @@ we can see git is asking image folder to add and commit but not to log. //
 
 prefer notes from chai and code.
 
-********************************************************** Git Branches and conflicts ***************************************************************
+********************************************************** Git Branches and conflicts **********************************************************
 
+Learning and checking for conflicts
