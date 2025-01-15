@@ -117,5 +117,9 @@ we can see git is asking image folder to add and commit but not to log. //
 prefer notes from chai and code.
 
 ********************************************************** Git Branches and conflicts ***************************************************************
-woww!!
-add footer notes
+// // git branch -d branch_name 
+The -d option (short for --delete) safely deletes the branch.
+Git will prevent deletion if the branch has unmerged changes to avoid losing work.
+
+// // git branch -D branch_name
+Force Delete
