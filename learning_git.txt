@@ -116,6 +116,7 @@ we can see git is asking image folder to add and commit but not to log. //
 
 prefer notes from chai and code.
 
+<<<<<<< HEAD
 ********************************************************** Git Branches and conflicts ***************************************************************
 // // git branch -d branch_name 
 The -d option (short for --delete) safely deletes the branch.
@@ -125,3 +126,5 @@ Git will prevent deletion if the branch has unmerged changes to avoid losing wor
 Force Delete
 
 // // git merge --abort easiest way is to abort the merging when you're not able to merge.
+
+Learning and checking for conflicts
