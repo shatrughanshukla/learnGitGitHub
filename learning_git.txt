@@ -276,3 +276,8 @@ or you can use HEAD@{n} to reset to the nth commit before the one you want to re
 
 // // git reflog <commit-hash>
 // // git reset --hard HEAD@{1}
+
+************************************************************** Learning GitHub **********************************************************************************************
+git branch -M main , The command git branch -M main is used to rename the current branch to main in Git.
+
+
