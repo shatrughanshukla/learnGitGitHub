@@ -281,3 +281,121 @@ or you can use HEAD@{n} to reset to the nth commit before the one you want to re
 git branch -M main , The command git branch -M main is used to rename the current branch to main in Git.
 
 
+// // // // Doubts // // // //
+
+I pushed a branch using git push origin main then I added more lines in working directory of a pushed file then I used git add . and then commited and used git pushed this gave an error fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+then i used the command git push origin main and it got pushed to the remote repository and  I got output Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 408 bytes | 408.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote: 
+remote: Create a pull request for 'main' on GitHub by visiting:
+remote:      https://github.com/shatrughanshukla/learnGitGitHub/pull/new/main
+remote: 
+To https://github.com/shatrughanshukla/learnGitGitHub.git
+ * [new branch]      main -> main , but when I checked in github then the code was their but with a conflict of 178th line and then I resolved that conflict and pulled then it was all okay.
+why this happened with git push origin main and why it is advice to create an upstreame remote by using git push -u origin main , how it makes difference ?
+
+// // solution
+
+The error and the subsequent behavior you experienced are related to how Git handles branches and their **upstream tracking** in remote repositories. Here's an explanation of what happened and why it is recommended to set an upstream branch:
+
+---
+
+### **Why Did You Encounter the Error?**
+When you ran:
+```bash
+git push origin main
+```
+- Git tried to push the `main` branch to the remote repository `origin`.
+- Since the branch `main` did not have an **upstream branch** set, Git didn’t know which remote branch to track or push the changes to by default.
+- Git prompted you with:
+  > *fatal: The current branch main has no upstream branch.*
+  - This means the local branch `main` wasn't linked to the remote branch `main`.
+
+---
+
+### **How `git push -u origin main` Helps**
+When you use the command:
+```bash
+git push -u origin main
+```
+- The `-u` (short for `--set-upstream`) flag sets the **upstream branch** for your local branch `main` to the remote branch `main` on `origin`.
+- After this setup, you can simply use:
+  ```bash
+  git push
+  ```
+  instead of specifying `origin main` every time.
+
+---
+
+### **Key Benefits of Setting an Upstream Branch**
+1. **Simplifies Workflow**:
+   - After setting the upstream, Git knows which remote branch to push to or pull from. You no longer need to specify `origin main`.
+
+2. **Streamlines Collaboration**:
+   - Commands like `git pull` and `git push` will automatically work with the correct remote branch, reducing errors and friction when working with remote repositories.
+
+3. **Syncs Local and Remote Branches**:
+   - Git keeps track of which commits are on your local branch versus the remote branch. This helps prevent issues like forgetting to pull before pushing.
+
+---
+
+### **Why Did You Encounter the Conflict?**
+- When you resolved the conflict, it indicated that the remote branch already had some changes that were not in your local branch.
+- This happened because:
+  1. The remote branch (`main`) was updated directly on GitHub or by another collaborator.
+  2. You pushed your changes without pulling the latest changes from the remote first.
+
+---
+
+### **Best Practices to Avoid Conflicts**
+1. **Set Upstream Immediately**:
+   - Use `git push -u origin <branch>` the first time you push a new branch.
+
+2. **Pull Before Pushing**:
+   - Always run `git pull` or `git fetch` and check for updates from the remote before making a push.
+   - Example:
+     ```bash
+     git pull origin main
+     ```
+
+3. **Resolve Conflicts Locally**:
+   - If there are conflicts, Git will pause the merge and let you resolve them locally. After resolving, commit the changes and push again.
+
+---
+
+### **Summary**
+1. The error occurred because your local branch `main` didn’t have an upstream branch set.
+2. Using `git push -u origin main` establishes an upstream branch, making it easier to work with remote repositories.
+3. The conflict occurred because your local branch and the remote branch had diverging changes. Pulling and resolving conflicts is a necessary step when working in a collaborative environment.
+
+---
+
+### **Commands Cheat Sheet**
+1. Push and set upstream:
+   ```bash
+   git push -u origin main
+   ```
+2. Pull changes before pushing:
+   ```bash
+   git pull origin main
+   ```
+3. View upstream branch:
+   ```bash
+   git branch -vv
+   ```
+4. Change upstream branch (if needed):
+   ```bash
+   git branch --set-upstream-to=origin/main main
+   ```
+
